@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ednel Correa</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="img/logo.png"></a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-menu">
+            <img src="img/menu-outline.svg" id = "mobileNav-open">
+        </div>
+    </nav>
+    <div class="nav-mobile-link" id = "nav-mobile-link">
+        <img src="img/add-outline.svg" id = "mobileNav-close">
+        <ul>
+            <a href="#home"><li>Home</li></a>
+            <a href="#about"><li>About me</li></a>
+            <a href="#skills"><li>Skills</li></a>
+            <a href="#contact"><li>Contact</li></a>
+        </ul>
+    </div>
+    <div class="container" id="home">
+        <div class="wrapper" id="home-w">
+            <div class="home-texts">
+                <h1>Hi,<br> I am <span>Ednel</span><br> Web Designer</h1>
+                <a href = "#contact"><button>Contact</button></a><br>
+                <a href = "https://github.com/ednelcorrea" target="_blank"><img class = "home-icon" src="img/logo-github.svg"></a>
+                <a href = "https://www.linkedin.com/in/ednel-correa-840596272/" target="_blank"><img class = "home-icon" src="img/logo-linkedin.svg"></a>
+                <a href = "https://www.facebook.com/correa.ednel.5" target="_blank"><img class = "home-icon" src="img/logo-facebook.svg"></a>
+            </div>
+            <div class="home-img">
+                <img src = "img/my-pic.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="container" id="about">
+        <h1>About</h1>
+        <div class="wrapper" id="about-w">
+            <div class="about-img">
+                <img src="img/my-pic.jpg">
+            </div>
+            <div class="about-texts">
+                <h1>I am Ednel Correa</h1>
+                <p>Hello! I am Ednel. I live in Norzagaray, Bulacan, Philippines. I am currently studying Bachelor of Science in Information Technology.
+                    Web development is more than just a profession for me—it's my true passion. From the moment I wrote my first line of code, I knew I had 
+                    found my calling. There's something exhilarating about creating websites and bringing them to life, knowing that I have the power to shape 
+                    someone's online experience.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="skills">
+        <h1>Skills</h1>
+        <div class="wrapper" id="skills-w">
+            <div class="skills-texts">
+                <h2>Profesional Skills</h2>
+                <p>As a professional, I have developed a wide range of skills through years of experience and dedicated learning. I am highly proficient in various areas 
+                    such as web development, design, problem-solving, and more, with strong expertise and knowledge in these fields. Below is the percentage of my knowledge
+                    in HTML, CSS, javascript and UI/UX:
+                </p>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">HTML5</span>
+                    </div>
+                    <div class="skills__html">
+                    </div>
+                    <div>
+                        <span class="skills__percentage">65%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">CSS3</span>
+                    </div>
+                    <div class="skills__css">
+                        
+                    </div>
+                    <div>
+                        <span class="skills__percentage">65%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">JAVASCRIPT</span>
+                    </div>
+                    <div class="skills__js">
+                        
+                    </div>
+                    <div>
+                        <span class="skills__percentage">45%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">UX/UI</span>
+                    </div>
+                    <div class="skills__ux">
+                        
+                    </div>
+                    <div>
+                        <span class="skills__percentage">65%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h1>Contact</h1>
+        <div class="wrapper" id="contact-w">
+            <div class="contact">
+                <h1>Contact me!</h1>
+                <form action="submit_form.php" method="POST">
+
+                    <input type="text" id="name" name="name" required placeholder="Name"><br>
+                    <input type="email" id="email" name="email" required placeholder="Email"><br>
+                    <textarea id="message" name="message" rows="4" required placeholder="Message"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h1>Ednel</h1>
+        <p>&copy; Ednel Coreea. All rights reserved</p>
+    </footer>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
